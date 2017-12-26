@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.0" />
+    <flash version="9.0" build="r494" platform="WIN" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-components />
+    <feature-files />
+  </features>
+  <components>
+    <component className="AGtoolkit" name="AGtoolkit1.0" icon="AGtoolkit_icon.png"  />
+  </components>
+  <libraries>
+    <library path="library.swf">
+      <script name="AGloader" mod="1241538011383" >
+        <def id="AGloader" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:LoaderInfo" type="s" /> 
+        <dep id="flash.net:URLLoader" type="s" /> 
+        <dep id="flash.system:LoaderContext" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="flash.net:URLRequest" type="s" /> 
+        <dep id="flash.display:Loader" type="s" /> 
+        <dep id="flash.net:URLLoader" type="e" /> 
+        <dep id="flash.system:LoaderContext" type="e" /> 
+        <dep id="flash.system:ApplicationDomain" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="XML" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="flash.display:Loader" type="e" /> 
+      </script>
+      <script name="AGdom" mod="1241745110156" >
+        <def id="AGdom" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:SecurityErrorEvent" type="s" /> 
+        <dep id="flash.net:URLLoader" type="s" /> 
+        <dep id="flash.events:TimerEvent" type="s" /> 
+        <dep id="flash.utils:Timer" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.net:URLRequest" type="s" /> 
+        <dep id="flash.net:URLVariables" type="s" /> 
+        <dep id="flash.events:IOErrorEvent" type="s" /> 
+        <dep id="flash.events:SecurityErrorEvent" type="e" /> 
+        <dep id="flash.net:URLLoader" type="e" /> 
+        <dep id="flash.events:TimerEvent" type="e" /> 
+        <dep id="flash.net:URLRequestMethod" type="e" /> 
+        <dep id="com.adobe.serialization.json:JSON" type="e" /> 
+        <dep id="flash.net:URLLoaderDataFormat" type="e" /> 
+        <dep id="flash.utils:Timer" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="flash.net:URLVariables" type="e" /> 
+        <dep id="flash.events:IOErrorEvent" type="e" /> 
+      </script>
+      <script name="com/adobe/serialization/json/JSON" mod="1225996034000" >
+        <def id="com.adobe.serialization.json:JSON" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.adobe.serialization.json:JSONDecoder" type="s" /> 
+        <dep id="com.adobe.serialization.json:JSONEncoder" type="s" /> 
+        <dep id="com.adobe.serialization.json:JSONDecoder" type="e" /> 
+        <dep id="com.adobe.serialization.json:JSONEncoder" type="e" /> 
+      </script>
+      <script name="com/adobe/serialization/json/JSONDecoder" mod="1225996034000" >
+        <def id="com.adobe.serialization.json:JSONDecoder" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.adobe.serialization.json:JSONToken" type="s" /> 
+        <dep id="com.adobe.serialization.json:JSONTokenizer" type="s" /> 
+        <dep id="com.adobe.serialization.json:JSONTokenizer" type="e" /> 
+        <dep id="com.adobe.serialization.json:JSONTokenType" type="e" /> 
+      </script>
+      <script name="com/adobe/serialization/json/JSONEncoder" mod="1225996034000" >
+        <def id="com.adobe.serialization.json:JSONEncoder" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.utils:describeType" type="e" /> 
+      </script>
+      <script name="com/adobe/serialization/json/JSONToken" mod="1225996034000" >
+        <def id="com.adobe.serialization.json:JSONToken" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="com/adobe/serialization/json/JSONTokenizer" mod="1225996034000" >
+        <def id="com.adobe.serialization.json:JSONTokenizer" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.adobe.serialization.json:JSONToken" type="s" /> 
+        <dep id="com.adobe.serialization.json:JSONToken" type="e" /> 
+        <dep id="com.adobe.serialization.json:JSONTokenType" type="e" /> 
+        <dep id="com.adobe.serialization.json:JSONParseError" type="e" /> 
+      </script>
+      <script name="com/adobe/serialization/json/JSONTokenType" mod="1225996034000" >
+        <def id="com.adobe.serialization.json:JSONTokenType" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="com/adobe/serialization/json/JSONParseError" mod="1225996034000" >
+        <def id="com.adobe.serialization.json:JSONParseError" /> 
+        <dep id="Error" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="AGtoolkit" mod="1241841487062" >
+        <def id="AGtoolkit" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="AGdom" type="s" /> 
+        <dep id="AGloader" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="flash.external:ExternalInterface" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="AGdom" type="e" /> 
+        <dep id="AGloader" type="e" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="ErrorScreen" type="e" /> 
+        <dep id="flash.net:navigateToURL" type="e" /> 
+        <dep id="Date" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.display:StageScaleMode" type="e" /> 
+        <dep id="LoadProcessor" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+      </script>
+      <script name="ErrorScreen" mod="1241841487062" >
+        <def id="ErrorScreen" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:SimpleButton" type="s" /> 
+      </script>
+      <script name="LoadProcessor" mod="1241841487062" >
+        <def id="LoadProcessor" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:Event" type="e" /> 
+      </script>
+      <script name="fl/livepreview/LivePreviewParent" mod="1241841487062" >
+        <def id="fl.livepreview:LivePreviewParent" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="flash.external:ExternalInterface" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.display:StageScaleMode" type="e" /> 
+        <dep id="flash.display:StageAlign" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+      </script>
+    </library>
+  </libraries>
+  <files>
+    <file path="AGtoolkit_icon.png" mod="1239741840078" />
+  </files>
+</swc>
